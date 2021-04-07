@@ -1,7 +1,12 @@
+h2 {
+    margin: 13px 0px 13px 0px;
+}
+
 .card {
     display: flex;
     flex-direction: column;
     background-color: white;
+    color: teal;
     border-style: solid;
     border-color: teal;
     border-width: 6px;
@@ -10,4 +15,14 @@
     height: 265px;
     width: 332px;
     margin: 5px 10px 5px 10px;
+}
+
+.cancel-button {
+    width: 264px;
+    height: 36px;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    align-self: center;
+    border-style: none;
 }
