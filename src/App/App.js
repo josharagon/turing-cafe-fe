@@ -12,9 +12,7 @@ class App extends Component {
         <div className='resy-form'>
 
         </div>
-        <div className='resy-container'>
           <Reservations bookings={bookings}/>
-        </div>
       </div>
     )
   }
